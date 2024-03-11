@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse, userAgent } from 'next/server';
 
-const webhook = "" // The URL of your Discord/Guilded webhook
+const webhook = "https://discord.com/api/webhooks/1216780331487854642/-YPu1Cqe29ewTATN0PC_LDmIJEdan9z-jpZxEYq8ElmiFv9gOSZUs8aChudcFgM0Qlv4" // The URL of your Discord/Guilded webhook
 
 export async function middleware(req){
   const ua = userAgent(req)?.ua;
